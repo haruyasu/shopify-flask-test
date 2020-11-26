@@ -1,0 +1,9 @@
+SHOPIFY_API_KEY = "xxx"
+SHOPIFY_SECRET = "xxx"
+
+APP_NAME = "FlaskApp"
+SERVER_HOSTNAME = "4ba43ea5592d.ngrok.io"
+SERVER_BASE_URL = f"https://{SERVER_HOSTNAME}"
+INSTALL_REDIRECT_URL = f"{SERVER_BASE_URL}/app_installed"
+
+WEBHOOK_APP_UNINSTALL_URL = f"https://{SERVER_HOSTNAME}/app_uninstalled"
